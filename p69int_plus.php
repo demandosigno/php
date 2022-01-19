@@ -4,4 +4,9 @@
 
     var_dump(PHP_INT_MAX);
     var_dump(PHP_INT_MAX+1);
+
+    $true = TRUE;
+    $false = FALSE;
+    $a = !($true && $false);
+    var_dump($a);
 ?>
